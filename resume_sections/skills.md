@@ -1,23 +1,24 @@
-- Cybersecurity\*
-- Security + CE\*  
-- SCRUM Master\*
 - Python\*
 - Kubernetes
+- AWS
+- Site Reliability Engineering
+- Distributed Systems
+- MySQL
+- Elasticsearch
+- Terraform
+- Infrastructure as Code
+- Monitoring & Observability
+- Incident Management
+- SCRUM Master\*
+- Cybersecurity\*
+- Security + CE\*
 - Bash
 - Splunk
-- MITRE
-- Ruby
-- PowerShell
-- Azure DevOps
-- AWS
-- ESXi / vSphere
-- Elasticsearch
 - Git/Hub
-- OpenAPI/Swagger
 - NoSQL
-- Express.js
-- React
-- Node.js
-
+- Azure DevOps
+- ESXi / vSphere
+- OpenAPI/Swagger
+- Ruby
 
 ### \*Certified Professional
