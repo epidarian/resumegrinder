@@ -1,0 +1,1 @@
+Seasoned DevSecOps team leader (Cybersecurity Specialist) with over a decade of experience in platform automation. Skilled in the deployment, scaling, and management of complex systems. Proven track record of leading cross-functional teams in the design and execution of innovative software solutions with a strong emphasis on security, compliance, and efficiency.

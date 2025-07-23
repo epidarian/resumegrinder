@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@page {
+    size: letter;
+    margin: 0.6in;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 9pt;
+    line-height: 1.4;
+    color: #334155;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 16pt;
+    border-bottom: 1.5pt solid #e2e8f0;
+    padding-bottom: 12pt;
+}
+
+.name {
+    font-size: 26pt;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 4pt;
+}
+
+.title {
+    font-size: 14pt;
+    font-weight: 500;
+    color: #64748b;
+    margin-bottom: 6pt;
+}
+
+.contact {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-bottom: 1pt;
+}
+
+/* Professional Summary */
+.section {
+    margin-bottom: 12pt;
+}
+
+.section h2 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-bottom: 6pt;
+    padding-bottom: 3pt;
+    border-bottom: 1pt solid #cbd5e1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.section p {
+    font-size: 9pt;
+    line-height: 1.5;
+}
+
+/* Table layout */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8pt 0;
+}
+
+table tr:nth-child(2) {
+    page-break-before: always;
+}
+
+td {
+    vertical-align: top;
+    padding: 10pt;
+}
+
+.left {
+    width: 70%;
+    border-right: 1.5pt solid #e2e8f0;
+    padding-right: 14pt;
+}
+
+.right {
+    width: 30%;
+    padding-left: 14pt;
+}
+
+/* Section headers in table */
+h2 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-bottom: 8pt;
+    padding-bottom: 3pt;
+    border-bottom: 1pt solid #cbd5e1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Job titles */
+h3 {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #059669;
+    margin-bottom: 3pt;
+}
+
+/* Job details */
+h3 + p {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-bottom: 6pt;
+    font-style: italic;
+}
+
+/* Job bullet points */
+ul {
+    margin: 6pt 0 16pt 14pt;
+}
+
+li {
+    font-size: 8.5pt;
+    line-height: 1.4;
+    margin-bottom: 2pt;
+}
+
+/* Strong text */
+strong {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+/* Emphasis/italic text */
+em {
+    font-style: italic;
+    color: #64748b;
+}
+
+/* Skills list */
+.right ul {
+    list-style: none;
+    margin: 0;
+}
+
+.right li {
+    padding: 2pt 0;
+    border-bottom: 1pt solid #f1f5f9;
+}
+
+.right li:last-child {
+    border-bottom: none;
+}
+
+/* Projects section */
+.right h2:nth-of-type(2) {
+    margin-top: 20pt;
+}
+
+.right h3 {
+    margin-top: 12pt;
+}
+
+.right h3:first-of-type {
+    margin-top: 8pt;
+}
+
+.right p {
+    font-size: 8pt;
+    line-height: 1.4;
+    margin-bottom: 10pt;
+}
+
+/* Education section */
+.education {
+    margin-top: 16pt;
+    padding-top: 12pt;
+    border-top: 1.5pt solid #e2e8f0;
+}
+
+.education h2 {
+    margin-bottom: 10pt;
+}
+
+.education p {
+    font-size: 9pt;
+    line-height: 1.5;
+    margin-bottom: 10pt;
+}
+
+.education strong {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 0pt;
+}
